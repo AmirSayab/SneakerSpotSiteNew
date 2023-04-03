@@ -1,0 +1,177 @@
+#imgProd {
+  width: 320px;
+  height: 300px;
+  border-top-right-radius: 20px;
+}
+
+#imgCart {
+  width: 48px;
+  height: 48px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 10px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  /* background-image: url("../images//shoes2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat; */
+}
+/* .productImg{
+   
+    
+} */
+.imgContent {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  border-top-right-radius: 20px;
+}
+
+#productHeading {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: #1f2937;
+}
+
+#productPara {
+  width: 239px;
+  height: 40px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #6b7280;
+}
+
+#dollar {
+  font-size: 15px;
+  color: white;
+  background-color: #5fd788;
+  width: 32px;
+  height: 15px;
+  border-radius: 20px;
+  padding: 0px 5px 0px 5px;
+  margin-left: 15px;
+}
+@media (max-width:1150px) {
+  #imgProd {
+    width: 290px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #imgProd {
+    width: 260px;
+    height: 220px;
+    border-top-right-radius: 20px;
+  }
+  #productHeading {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  #productPara {
+    width: 200px;
+    height: 40px;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #6b7280;
+  }
+  #imgCart {
+    width: 40px;
+    height: 40px;
+  }
+  #dollar {
+    font-size: 13px;
+    color: white;
+    background-color: #5fd788;
+    width: 32px;
+    height: 15px;
+    border-radius: 20px;
+    padding: 0px 5px 0px 5px;
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 844px) {
+  #imgProd {
+    width: 190px;
+    height: 175px;
+    border-top-right-radius: 20px;
+  }
+  #productHeading {
+    font-weight: 500;
+    font-size: 14px;
+  }
+  #productPara {
+    width: 150px;
+    height: 40px;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #6b7280;
+  }
+  #imgCart {
+    width: 32px;
+    height: 32px;
+  }
+  #dollar {
+    font-size: 12px;
+    color: white;
+    background-color: #5fd788;
+    width: 32px;
+    height: 15px;
+    border-radius: 20px;
+    padding: 0px 5px 0px 5px;
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  #imgProd {
+    width: 260px;
+    height: 220px;
+    border-top-right-radius: 20px;
+  }
+  #productHeading {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  #productPara {
+    width: 200px;
+    height: 40px;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #6b7280;
+  }
+  #imgCart {
+    width: 40px;
+    height: 40px;
+  }
+  #dollar {
+    font-size: 13px;
+    color: white;
+    background-color: #5fd788;
+    width: 32px;
+    height: 15px;
+    border-radius: 20px;
+    padding: 0px 5px 0px 5px;
+    margin-left: 15px;
+  }
+}

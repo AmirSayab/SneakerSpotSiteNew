@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+.btn {
+  height: 40px;
+  width: 234px;
+  background-color: #fdcdb5;
+  color: white;
+  font-size: 1rem;
+  border: 2px solid #fdcdb5;
+  border-radius: 12px;
+  font-size: 1.6rem;
+}
+
+.btnInDetail {
+  height: 40px;
+  width: 234px;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  border: 2px solid #fdcdb5;
+  border-radius: 12px;
+  font-size: 1.6rem;
+}
+.btnInDetail:hover {
+  /* color: #fdcdb5; */
+  /* background-color: white; */
+  cursor: pointer;
+  /* border: 2px solid #fdcdb5; */
+}
+
+.btn:hover {
+  color: #fdcdb5;
+  background-color: white;
+  cursor: pointer;
+  border: 2px solid #fdcdb5;
+}
+
+@media (max-width: 998px) {
+  .btn {
+    display: block;
+    height: 40px;
+    width: 184px;
+    background-color: #fdcdb5;
+    color: white;
+    border: 2px solid #fdcdb5;
+    border-radius: 12px;
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 798px) {
+  .btn {
+    display: block;
+    height: 40px;
+    width: 144px;
+    background-color: #fdcdb5;
+    color: white;
+    border: 2px solid #fdcdb5;
+    border-radius: 12px;
+    font-size: 1.4rem;
+  }
+}

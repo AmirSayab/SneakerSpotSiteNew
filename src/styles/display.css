@@ -1,0 +1,99 @@
+.display-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+  max-width: 100%;
+  margin-top: 10rem;
+}
+.para-cont {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+  background-color: #fdcdb5;
+  justify-content: center;
+  /* align-items: center; */
+  /* text-align: start; */
+}
+.para-cont p {
+  width: 550px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 119.4%;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-bottom: 5rem;
+  margin-left: 10rem;
+  /* text-align: start; */
+}
+.para-cont Button {
+  margin-left: 10rem;
+}
+.image-container {
+  height: 100%;
+  width: 40%;
+}
+.image-container img {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 998px) {
+  .para-cont p {
+    width: 400px;
+    font-weight: 500;
+    font-size: 35px;
+    margin-left: 5rem;
+  }
+  .para-cont Button {
+    margin-left: 5rem;
+  }
+  .display-cont {
+    height: 80vh;
+  }
+}
+
+@media (max-width: 798px) {
+  .para-cont p {
+    width: 330px;
+    font-weight: 500;
+    font-size: 30px;
+    margin-left: 3rem;
+  }
+  .para-cont Button {
+    margin-left: 3rem;
+  }
+  .display-cont {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .para-cont p {
+    width: 80%;
+    font-weight: 500;
+    font-size: 30px;
+    margin-left: 0rem;
+    margin-top: 3rem;
+    text-align: center;
+  }
+  .para-cont Button {
+    margin-left: 0rem;
+    margin-bottom: 3rem;
+  }
+  .display-cont {
+    height: 90vh !important;
+    flex-direction: column;
+    margin-bottom: 10rem !important;
+  }
+  .para-cont {
+    width: 100%;
+    align-items: center;
+  }
+  .image-container {
+    width: 100%;
+  }
+}
